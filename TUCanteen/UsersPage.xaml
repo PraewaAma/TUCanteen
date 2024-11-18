@@ -31,7 +31,7 @@
                 <Label Text="User name" Grid.Column="1" Grid.Row="1" VerticalOptions="Center" HorizontalOptions="Start"
                        FontSize="18" TextColor="White" />
                 <!-- ลูกศร -->
-                <Image Source="right_arrow.png" Grid.Column="2" Grid.Row="" VerticalOptions="Center" HorizontalOptions="End"
+                <Image Source="right_arrow.png" Grid.Column="2" Grid.Row="1" VerticalOptions="Center" HorizontalOptions="End"
                        WidthRequest="20" HeightRequest="20" />
             </Grid>
 
