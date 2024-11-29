@@ -1,0 +1,178 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<TabbedPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="TUCanteen.HomePage"
+             Title="HomePage"
+             BarBackgroundColor="#FFD13F"
+             BarTextColor="#000000"
+             SelectedTabColor="#C3002F"
+             UnselectedTabColor="#000000">
+    <ContentPage Title="Home">
+    </ContentPage>
+    <ContentPage Title="Menu">
+    </ContentPage>
+    <ContentPage Title="Status">
+    </ContentPage>
+    <ContentPage Title="Payment">
+    </ContentPage>
+    <ContentPage Title="Account">
+        <Grid>
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="*"/>
+                <ColumnDefinition Width="*"/>
+                <ColumnDefinition Width="Auto"/>
+                <ColumnDefinition Width="*"/>
+            </Grid.ColumnDefinitions>
+            <Grid.RowDefinitions>
+                <RowDefinition Height="*"/>
+                <RowDefinition Height="120"/>
+                <RowDefinition Height="*"/>
+                <RowDefinition Height="*"/>
+                <RowDefinition Height="*"/>
+                <RowDefinition Height="*"/>
+                <RowDefinition Height="*"/>
+                <RowDefinition Height="*"/>
+                <RowDefinition Height="*"/>
+                <RowDefinition Height="*"/>
+            </Grid.RowDefinitions>
+            <!-- Title -->
+            <Label Grid.Column="0" Grid.ColumnSpan="4" Grid.Row="0"
+                Text="Account"
+                FontSize="Title"
+                TextColor="Black"
+                VerticalOptions="Center"
+                HorizontalOptions="Center">
+            </Label>
+
+            <!-- ข้อมูลผู้ใช้ -->
+            <Image Grid.Column="0" Grid.ColumnSpan="2" Grid.Row="1"
+                Source="img_account.png"
+                BackgroundColor="#C3002F">
+            </Image>
+            <Label Grid.Column="2" Grid.Row="1"
+                Text="Hello , DX212"
+                FontSize="Large"
+                TextColor="White"
+                BackgroundColor="#C3002F"
+                VerticalOptions="FillAndExpand"
+                HorizontalOptions="FillAndExpand"
+                VerticalTextAlignment="Center"
+                HorizontalTextAlignment="Center">
+            </Label>
+            <Label Grid.Column="3" Grid.Row="1"
+                Text=">"
+                FontSize="Title"
+                TextColor="#FFD13F"
+                BackgroundColor="#C3002F"
+                VerticalOptions="FillAndExpand"
+                HorizontalOptions="FillAndExpand"
+                VerticalTextAlignment="Center"
+                HorizontalTextAlignment="Center">
+            </Label>
+
+            <!-- โลเคชั่น -->
+            <Image Grid.Column="0" Grid.Row="2"
+                Source="icon_location.png">
+            </Image>
+            <Label Grid.Column="1" Grid.ColumnSpan="2" Grid.Row="2"
+                Text="Location"
+                FontSize="Medium"
+                VerticalTextAlignment="Center">
+            </Label>
+            <Label Grid.Column="3" Grid.Row="2"
+                Text=">"
+                FontSize="Medium"
+                HorizontalOptions="Center"
+                VerticalTextAlignment="Center">
+            </Label>
+
+            <!-- history -->
+            <Image Grid.Column="0" Grid.Row="3"
+                Source="icon_history.png">
+            </Image>
+            <Label Grid.Column="1" Grid.ColumnSpan="2" Grid.Row="3"
+                Text="History"
+                FontSize="Medium"
+                VerticalTextAlignment="Center">
+            </Label>
+            <Label Grid.Column="3" Grid.Row="3"
+                Text=">"
+                FontSize="Medium"
+                HorizontalOptions="Center"
+                VerticalTextAlignment="Center">
+            </Label>
+
+            <!-- Conditions -->
+            <Image Grid.Column="0" Grid.Row="4"
+                Source="icon_conditions.png">
+            </Image>
+            <Label Grid.Column="1" Grid.ColumnSpan="2" Grid.Row="4"
+                Text="Conditions"
+                FontSize="Medium"
+                VerticalTextAlignment="Center">
+            </Label>
+            <Label Grid.Column="3" Grid.Row="4"
+                Text=">"
+                FontSize="Medium"
+                HorizontalOptions="Center"
+                VerticalTextAlignment="Center">
+            </Label> 
+
+            <!-- Help & Support -->
+            <Image Grid.Column="0" Grid.Row="5"
+                Source="icon_helpsupport.png">
+            </Image>
+            <Label Grid.Column="1" Grid.ColumnSpan="2" Grid.Row="5"
+                Text="Help and Support"
+                FontSize="Medium"
+                VerticalTextAlignment="Center">
+            </Label>
+            <Label Grid.Column="3" Grid.Row="5"
+                Text=">"
+                FontSize="Medium"
+                HorizontalOptions="Center"
+                VerticalTextAlignment="Center">
+            </Label> 
+
+            <!-- Setting -->
+            <Image Grid.Column="0" Grid.Row="6"
+                Source="icon_setting.png">
+            </Image>
+            <Label Grid.Column="1" Grid.ColumnSpan="2" Grid.Row="6"
+                Text="Setting"
+                FontSize="Medium"
+                VerticalTextAlignment="Center">
+            </Label>
+            <Label Grid.Column="3" Grid.Row="6"
+                Text=">"
+                FontSize="Medium"
+                VerticalTextAlignment="Center"
+                HorizontalOptions="Center">
+            </Label> 
+
+            <!-- Line -->
+            <Image Grid.Column="0" Grid.Row="7"
+                Source="line.png">
+            </Image>
+
+            <!-- Logout -->
+            <Image Grid.Column="0" Grid.Row="8"
+                Source="icon_logout.png"
+                VerticalOptions="Start">
+            </Image>
+            <Label Grid.Column="1" Grid.ColumnSpan="2" Grid.Row="8"
+                Text="Logout"
+                FontSize="Medium"
+                TextColor="#C3002F"
+                VerticalTextAlignment="Start">
+            </Label>
+            <Label Grid.Column="3" Grid.Row="8"
+                Text=">"
+                FontSize="Medium"
+                HorizontalOptions="Center"
+                TextColor="#C3002F"
+                VerticalTextAlignment="Start">
+            </Label> 
+        </Grid>
+    </ContentPage>
+</TabbedPage>
