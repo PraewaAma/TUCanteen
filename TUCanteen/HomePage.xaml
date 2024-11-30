@@ -5,17 +5,25 @@
              Title="HomePage"
              BarBackgroundColor="#FFD13F"
              BarTextColor="#000000"
-             SelectedTabColor="#C3002F"
-             UnselectedTabColor="#000000">
-    <ContentPage Title="Home">
+             SelectedTabColor="#FFD13F"
+             UnselectedTabColor="#FFD13F">
+    <ContentPage Title="Home" IconImageSource="bar_home.png">
     </ContentPage>
-    <ContentPage Title="Menu">
+    <ContentPage Title="Menu" IconImageSource="bar_menu.png">
+        <Grid>
+            <!-- Background Image -->
+            <Image Source="menupage.png" Aspect="AspectFill" />
+        </Grid>
     </ContentPage>
-    <ContentPage Title="Status">
+    <ContentPage Title="Status" IconImageSource="bar_status.png">
     </ContentPage>
-    <ContentPage Title="Payment">
+    <ContentPage Title="Payment" IconImageSource="bar_payment.png">
+        <Grid>
+            <!-- Background Image -->
+            <Image Source="paymentpage.png" Aspect="AspectFill" />
+        </Grid>
     </ContentPage>
-    <ContentPage Title="Account">
+    <ContentPage Title="Account" IconImageSource="bar_account.png">
         <Grid>
             <Grid.ColumnDefinitions>
                 <ColumnDefinition Width="*"/>
@@ -47,7 +55,9 @@
             <!-- ข้อมูลผู้ใช้ -->
             <Image Grid.Column="0" Grid.ColumnSpan="2" Grid.Row="1"
                 Source="img_account.png"
-                BackgroundColor="#C3002F">
+                BackgroundColor="#C3002F"
+                VerticalOptions="FillAndExpand"
+                HorizontalOptions="FillAndExpand">
             </Image>
             <Label Grid.Column="2" Grid.Row="1"
                 Text="Hello , DX212"
@@ -72,7 +82,9 @@
 
             <!-- โลเคชั่น -->
             <Image Grid.Column="0" Grid.Row="2"
-                Source="icon_location.png">
+                Source="icon_location.png"
+                WidthRequest="40"
+                HeightRequest="40">
             </Image>
             <Label Grid.Column="1" Grid.ColumnSpan="2" Grid.Row="2"
                 Text="Location"
@@ -88,7 +100,9 @@
 
             <!-- history -->
             <Image Grid.Column="0" Grid.Row="3"
-                Source="icon_history.png">
+                Source="icon_history.png"
+                WidthRequest="40"
+                HeightRequest="40">
             </Image>
             <Label Grid.Column="1" Grid.ColumnSpan="2" Grid.Row="3"
                 Text="History"
@@ -104,7 +118,9 @@
 
             <!-- Conditions -->
             <Image Grid.Column="0" Grid.Row="4"
-                Source="icon_conditions.png">
+                Source="icon_conditions.png"
+                WidthRequest="40"
+                HeightRequest="40">
             </Image>
             <Label Grid.Column="1" Grid.ColumnSpan="2" Grid.Row="4"
                 Text="Conditions"
@@ -120,7 +136,9 @@
 
             <!-- Help & Support -->
             <Image Grid.Column="0" Grid.Row="5"
-                Source="icon_helpsupport.png">
+                Source="icon_helpsupport.png"
+                WidthRequest="40"
+                HeightRequest="40">
             </Image>
             <Label Grid.Column="1" Grid.ColumnSpan="2" Grid.Row="5"
                 Text="Help and Support"
@@ -136,7 +154,9 @@
 
             <!-- Setting -->
             <Image Grid.Column="0" Grid.Row="6"
-                Source="icon_setting.png">
+                Source="icon_setting.png"
+                WidthRequest="40"
+                HeightRequest="40">
             </Image>
             <Label Grid.Column="1" Grid.ColumnSpan="2" Grid.Row="6"
                 Text="Setting"
@@ -158,7 +178,9 @@
             <!-- Logout -->
             <Image Grid.Column="0" Grid.Row="8"
                 Source="icon_logout.png"
-                VerticalOptions="Start">
+                VerticalOptions="Start"
+                WidthRequest="40"
+                HeightRequest="40">
             </Image>
             <Label Grid.Column="1" Grid.ColumnSpan="2" Grid.Row="8"
                 Text="Logout"
