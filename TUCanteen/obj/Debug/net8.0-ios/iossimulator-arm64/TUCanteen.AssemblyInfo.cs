@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("TUCanteen")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0+fb443761830e91476023feecd7285081c9a2cc11")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0+740c6dbb99dfc061a131cdda86028f5ce8cab60e")]
 [assembly: System.Reflection.AssemblyProductAttribute("TUCanteen")]
 [assembly: System.Reflection.AssemblyTitleAttribute("TUCanteen")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
